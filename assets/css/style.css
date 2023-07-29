@@ -1,0 +1,96 @@
+:root {
+    --primary: rgb(250, 56, 17);
+    --playerX: rgb(251, 114, 114);
+    --playerO: rgb(248, 141, 48);
+    --limegreen: rgb(212, 255, 120); 
+}
+
+*{
+    background-color: white;
+}
+
+h1 {
+    color: var(--primary);
+    text-shadow: 1px 1px 1px black;
+}
+
+p {
+    margin-bottom: -5;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    border: none;
+    width: 80px;
+    height: 80px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cell:active {
+    outline: none;
+}
+
+#b1 {
+    border-bottom: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+}
+
+#b2 {
+    border-bottom: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+    border-left: 1px solid var(--primary);
+}
+
+#b3 {
+    border-bottom: 1px solid var(--primary);
+    border-left: 1px solid var(--primary);
+}
+
+#b4{
+    border-bottom: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+    border-top: 1px solid var(--primary);
+}
+
+#b5 {
+    border-bottom: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+    border-left: 1px solid var(--primary);
+    border-top: 1px solid var(--primary);
+}
+
+#b6 {
+    border-bottom: 1px solid var(--primary);
+    border-left: 1px solid var(--primary);
+    border-top: 1px solid var(--primary);
+}
+
+#b7 {
+    border-right: 1px solid var(--primary);
+    border-top: 1px solid var(--primary);
+}
+
+#b8 {
+    border-right: 1px solid var(--primary);
+    border-left: 1px solid var(--primary);
+    border-top: 1px solid var(--primary);
+}
+
+#b9 {
+    border-left: 1px solid var(--primary);
+    border-top: 1px solid var(--primary);
+}
