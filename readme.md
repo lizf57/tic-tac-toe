@@ -23,7 +23,9 @@ Player 1 will always be X's, while Player 2 will always be O's.
 
 #
 
-Link to deployed application: 
+Link to deployed application: https://lizf57.github.io/tic-tac-toe/
+
+
 
 ![project-screenshot](./assets/images/tictactoe.png)
 
