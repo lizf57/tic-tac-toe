@@ -31,14 +31,14 @@ function myfunc() {
         b8btn.disabled = true;
         b9btn.disabled = true;
 
-        b1btn.style.color = "rgb(212, 255, 120)"
-        b2btn.style.color = "rgb(212, 255, 120)"
-        b3btn.style.color = "rgb(212, 255, 120)"
+        b1btn.style.color = "blue"
+        b2btn.style.color = "blue"
+        b3btn.style.color = "blue"
     }
 
     // b1 b4 b7
     else if ((b1 == 'x' || b1 == 'X') && (b4 == 'x' || b4 == 'X')&& (b7 == 'x' || b7 == 'X')){
-        document.getElementById('print').innerHTML = "Player X won!" ;
+        document.getElementById('print').innerHTML = "Player X won!";
         b2btn.disabled = true;
         b3btn.disabled = true;
         b5btn.disabled = true;
@@ -46,13 +46,13 @@ function myfunc() {
         b8btn.disabled = true;
         b9btn.disabled = true;
 
-        b1btn.style.color = "rgb(212, 255, 120)"
-        b4btn.style.color = "rgb(212, 255, 120)"
-        b7btn.style.color = "rgb(212, 255, 120)"
+        b1btn.style.color = "blue"
+        b4btn.style.color = "blue"
+        b7btn.style.color = "blue"
     }
     //b1 b5 b9
     else if ((b1 == 'x' || b1 == 'X') && (b5 == 'x' || b5 == 'X')&& (b9 == 'x' || b9 == 'X')) {
-        document.getElementById('print').innerHTML = "Player X won!" ;
+        document.getElementById('print').innerHTML = "Player X won!";
         b2btn.disabled = true;
         b3btn.disabled = true;
         b4btn.disabled = true;
@@ -60,13 +60,13 @@ function myfunc() {
         b7btn.disabled = true;
         b8btn.disabled = true;
 
-        b1btn.style.color = "rgb(212, 255, 120)"
-        b5btn.style.color = "rgb(212, 255, 120)"
-        b9btn.style.color = "rgb(212, 255, 120)"
+        b1btn.style.color = "blue"
+        b5btn.style.color = "blue"
+        b9btn.style.color = "blue"
      }
     //b2 b5 b8 
     else if ((b2 == 'x' || b2 == 'X') && (b5 == 'x' || b5 == 'X')&& (b8 == 'x' || b8 == 'X')) {
-        document.getElementById('print').innerHTML = "Player X won!" ;
+        document.getElementById('print').innerHTML = "Player X won!";
         b1btn.disabled = true;
         b3btn.disabled = true;
         b4btn.disabled = true;
@@ -74,13 +74,13 @@ function myfunc() {
         b7btn.disabled = true;
         b9btn.disabled = true;
 
-        b2btn.style.color = "rgb(212, 255, 120)"
-        b5btn.style.color = "rgb(212, 255, 120)"
-        b8btn.style.color = "rgb(212, 255, 120)"
+        b2btn.style.color = "blue"
+        b5btn.style.color = "blue"
+        b8btn.style.color = "blue"
      }
     // b3 b6 b9
     else if ((b3 == 'x' || b3 == 'X') && (b6 == 'x' || b6 == 'X')&& (b9 == 'x' || b9 == 'X')) {
-        document.getElementById('print').innerHTML = "Player X won!" ;
+        document.getElementById('print').innerHTML = "Player X won!";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b4btn.disabled = true;
@@ -88,13 +88,13 @@ function myfunc() {
         b7btn.disabled = true;
         b8btn.disabled = true;
 
-        b3btn.style.color = "rgb(212, 255, 120)"
-        b6btn.style.color = "rgb(212, 255, 120)"
-        b9btn.style.color = "rgb(212, 255, 120)"
+        b3btn.style.color = "blue"
+        b6btn.style.color = "blue"
+        b9btn.style.color = "blue"
      }
     // b4 b5 b6
     else if ((b4 == 'x' || b4 == 'X') && (b5 == 'x' || b5 == 'X')&& (b6 == 'x' || b6 == 'X')) {
-        document.getElementById('print').innerHTML = "Player X won!" ;
+        document.getElementById('print').innerHTML = "Player X won!";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b3btn.disabled = true;
@@ -102,13 +102,13 @@ function myfunc() {
         b8btn.disabled = true;
         b9btn.disabled = true;
 
-        b4btn.style.color = "rgb(212, 255, 120)"
-        b5btn.style.color = "rgb(212, 255, 120)"
-        b6btn.style.color = "rgb(212, 255, 120)"
+        b4btn.style.color = "blue"
+        b5btn.style.color = "blue"
+        b6btn.style.color = "blue"
      }
     // b7 b8 b9
     else if ((b7 == 'x' || b7 == 'X') && (b8 == 'x' || b8 == 'X')&& (b9 == 'x' || b9 == 'X')) {
-        document.getElementById('print').innerHTML = "Player X won!" ;
+        document.getElementById('print').innerHTML = "Player X won!";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b3btn.disabled = true;
@@ -116,13 +116,13 @@ function myfunc() {
         b5btn.disabled = true;
         b6btn.disabled = true;
 
-        b7btn.style.color = "rgb(212, 255, 120)"
-        b8btn.style.color = "rgb(212, 255, 120)"
-        b9btn.style.color = "rgb(212, 255, 120)"
+        b7btn.style.color = "blue"
+        b8btn.style.color = "blue"
+        b9btn.style.color = "blue"
      }
     // b3 b5 b7
     else if ((b3 == 'x' || b3 == 'X') && (b5 == 'x' || b5 == 'X')&& (b7 == 'x' || b7 == 'X')) {
-        document.getElementById('print').innerHTML = "Player X won!" ;
+        document.getElementById('print').innerHTML = "Player X won!";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b4btn.disabled = true;
@@ -130,15 +130,15 @@ function myfunc() {
         b8btn.disabled = true;
         b9btn.disabled = true;
 
-        b3btn.style.color = "rgb(212, 255, 120)"
-        b5btn.style.color = "rgb(212, 255, 120)"
-        b7btn.style.color = "rgb(212, 255, 120)"
+        b3btn.style.color = "blue"
+        b5btn.style.color = "blue"
+        b7btn.style.color = "blue"
      }
 
 // if player two wins and the combos && disable other buttons:
     // b1 b2 b3
     if ((b1 == 'o' || b1 == 'O') && (b2 == 'o' || b2 == 'O')&& (b3 == 'o' || b3 == 'O')) {
-        document.getElementById('print').innerHTML = "Player O won!" ;
+        document.getElementById('print').innerHTML = "Player O won!";
         b4btn.disabled = true;
         b5btn.disabled = true;
         b6btn.disabled = true;
